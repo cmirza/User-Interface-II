@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;900&display=swap');
 
 /* Add CSS styling here */
 
@@ -50,10 +50,157 @@ nav {
 }
 nav a{
     margin: 5px;
-    border:solid 1px black;
+    border-top: solid 2px gray;
+    border-right: solid 2px black;
+    border-bottom: solid 2px black;
+    border-left: solid 2px gray;
+    border-radius: 10px;
+    background-color: #E8E8E8;
     color:black;
     text-decoration:none;
+    font-weight: 500;
     padding: 5px 20px 5px 20px;
+}
 
+.intro {
+    display: flex;
+    margin: auto;
+    width: 90%;
+    padding-top: 50px;
+}
 
+.meImg {
+    width: 50%;
+    height: auto;
+}
+
+.aboutMe {
+    padding:1%;
+    display:flex;
+    margin-right:50px;
+    margin-left:50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.aboutMe h2 {
+    font-size: 20pt;
+}
+
+.aboutMe a {
+    width: 180px;
+    margin: 10px 0 10px 0;
+    padding: 5px 0 5px 0;
+    font-weight: 500;
+    border-radius: 10px;
+    text-align: center;
+    border-top: solid 2px gray;
+    border-right: solid 2px black;
+    border-bottom: solid 2px black;
+    border-left: solid 2px gray;
+    border-radius: 10px;
+    background-color: #E8E8E8;
+    color:black;
+    text-decoration:none;
+}
+
+.aboutMe p {
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.projects {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 5%;
+}
+
+.proj {
+    width: 250px;
+    height: auto;
+    background: lightgray;
+    border: 1px solid black;
+    margin: 20px;
+    justify-content: center;
+}
+
+.proj img {
+    height: 100%;
+    width: 100%;
+}
+
+.proj p {
+    text-align: center;
+    font-weight: bold;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+    width: 100%;
+    padding-top: 10px;
+    background-color: lightgray;
+}
+
+.contact {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    width: 25%;
+}
+
+.contact h2 {
+    text-align: center;
+    font-weight: 300;
+    margin-bottom: 10px;
+}
+
+.contact a {
+    width: 200px;
+    padding: 8px 15px 8px 15px;
+    font-weight: 500;
+    border-radius: 10px;
+    text-align: center;
+    border-top: solid 2px gray;
+    border-right: solid 2px black;
+    border-bottom: solid 2px black;
+    border-left: solid 2px gray;
+    border-radius: 10px;
+    background-color: #E8E8E8;
+    color: black;
+    text-decoration: none;
+}
+
+.socialMedia {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 25%;
+}
+
+.socialMedia a {
+    width: unset;
+    padding: unset;
+    font-weight: unset;
+    border-radius: unset;
+    text-align: unset;
+    border: unset;
+    border-radius: unset;
+    color: unset;
+    text-decoration: unset;
+    background-color: unset;
+}
+
+.socialIcon {
+    width: 30px;
+    height: auto;
+    margin: 10px 10px 10px 10px;
 }
